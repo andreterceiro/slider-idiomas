@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta charset="utf8" />
+		<link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+		<style>
+			button {
+				height: 50px;
+				width: 50px
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			Aqui pode ser visto por exemplo:
+			<ul>
+				<li>Vezes em que estava em primeiro na divisão diamante</li>
+				<li>Que já terminei em primeiro ou em terceiro (já terminei em segundo também) na divisão diamante</li>
+				<li>Que já fiz mais de 1000, 1500 ou 2500 XP alguns dias</li>
+				<li> Que já terminei algumas séries (não coloquei todas aqui)</li>
+				<li>Que já consegui 2 coras em inglês (estou quase com três)</li>
+				<li>Que já estudei 37 coisas diferentes no Duolingo</lki>
+				<li>Algumas coisas não podem ser vistas, como que já tive 3 coroas em inglês, mas o jogo reiniciou algumas lições :(</li>
+			<ul>
+		</div>
+		<article class="c-carousel c-carousel--simple">
+		  <div class="c-carousel__slides js-carousel--simple">
+			<img class="d-block w-100" src="1.jpg">
+			<img class="d-block w-100" src="2.jpg">
+			<img class="d-block w-100" src="3.jpg">
+			<img class="d-block w-100" src="4.jpg">
+			<img class="d-block w-100" src="5.jpg">
+			<img class="d-block w-100" src="6.jpg">
+			<img class="d-block w-100" src="7.jpg">
+			<img class="d-block w-100" src="8.jpg">
+			<img class="d-block w-100" src="9.jpg">
+			<img class="d-block w-100" src="10.jpg">
+			<img class="d-block w-100" src="11.jpg">
+			<img class="d-block w-100" src="12.jpg">
+			<img class="d-block w-100" src="13.jpg">
+			<img class="d-block w-100" src="14.jpg">
+			<img class="d-block w-100" src="15.jpg">
+			<img class="d-block w-100" src="16.jpg">
+			<img class="d-block w-100" src="17.jpg">
+			<img class="d-block w-100" src="18.jpg">
+			<img class="d-block w-100" src="19.jpg">
+			<img class="d-block w-100" src="20.jpg">
+			<img class="d-block w-100" src="21.jpg">
+			<img class="d-block w-100" src="22.jpg">
+			<img class="d-block w-100" src="23.jpg">
+			<img class="d-block w-100" src="24.jpg">
+			<img class="d-block w-100" src="25.jpg">
+			<img class="d-block w-100" src="26.jpg">
+			<img class="d-block w-100" src="27.jpg">
+			<img class="d-block w-100" src="28.jpg">
+			<img class="d-block w-100" src="30.jpg">
+			<img class="d-block w-100" src="32.jpg">
+			<img class="d-block w-100" src="33.jpg">
+		</div>
+
+		  <button class="js-carousel--simple-prev">«</button>
+		  <button class="js-carousel--simple-next">»</button>
+		  <div class="js-carousel--simple-dots"></div>
+		</article>
+		<script>
+			var $simpleCarousel = document.querySelector(".js-carousel--simple");
+			new Glider($simpleCarousel, {
+			  slidesToShow: 2,
+			  slidesToScroll: 2,
+			  draggable: true,
+			  dots: ".js-carousel--simple-dots",
+			  arrows: {
+				prev: ".js-carousel--simple-prev",
+				next: ".js-carousel--simple-next",
+			  }
+			});
+		</script>
+	</body>
+</html>
