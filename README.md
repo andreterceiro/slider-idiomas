@@ -1,1 +1,1 @@
-http://terceiro.com.br/slider_duolingo/
+http://terceiro.com.br/slider_idiomas
